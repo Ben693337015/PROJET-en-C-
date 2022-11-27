@@ -1,0 +1,10 @@
+#include <iostream> // Standard C++ I/O
+using namespace std;
+int main()
+{ int val1, val2;
+cout << "Entrer deux entiers: " << endl;
+cin >> val1 >> val2;
+cout << "Valeurs entrées: " << val1 << " et " << val2 << endl;
+cout << "valeur 1+valeur 2 =" << val1 + val2 << endl;
+return 0;
+}
